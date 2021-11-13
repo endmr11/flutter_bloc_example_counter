@@ -37,26 +37,5 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     }
   }
 
-  void increment() {
-    add(
-      IncrementEvent(),
-    );
-  }
 }
 
-/*
-      await Future.delayed(
-        Duration(seconds: 3),
-      );
-
- */
-
-
-/*
-  HomeBloc() : super(HomeInitial()) {
-    on<HomeEvent>((event, emit) {
-      // TODO: implement event handler
-    });
-  }
-
- */
