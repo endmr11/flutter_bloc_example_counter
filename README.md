@@ -1,4 +1,4 @@
-# flutter_bloc_kullanimi2
+# flutter_bloc_example_counter
 
 A new Flutter project.
 
