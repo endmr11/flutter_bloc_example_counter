@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           //BlocProvider.of<HomeBloc>(context).increment();
-          context.read<HomeBloc>().increment();
+          context.read<HomeBloc>().add(IncrementEvent());
         },
         child: const Icon(
           Icons.add,
